@@ -1,0 +1,322 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+}
+
+
+
+
+
+/* topo */
+
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    height: 80px;
+}
+
+.div-topo {
+    max-width: 1200px;
+}
+
+.topo .div-topo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.topo .titulo-topo a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    margin: 0 15px;
+}
+
+.titulo-topo span {
+    color: rgb(130, 197, 219);
+}
+
+.topo .links-topo a{
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 15px;
+}
+
+.links-topo a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+
+
+
+
+
+
+/* titulo */
+
+.titulo {
+    background-image: url(img-fundo.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo .paragrafo1 {
+    width: 30%;
+    height: 26%;
+    background-color: #0a9077b3;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* conteudo */
+
+.quartos {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.organizacao-img {
+    max-width: 1200px;
+}
+
+.titulo-quartos {
+    padding: 30px 0;
+    text-align: center;
+    margin: 15px;
+}
+
+.titulo-quartos h2{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.titulo-quartos P {
+    font-size: 20px;
+}
+
+.quartos .organizacao-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.organizacao-img img {
+    width: 100%;
+}
+
+.texto {
+    width: 30%;
+    border-bottom: 3px solid #49997d;
+}
+
+.texto a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.texto a:hover {
+    color: #49997d;
+}
+
+/* parte 2 */
+
+.informacoes {
+    max-width: 1200px;
+}
+
+.quartos .informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left:10px;
+}
+
+.sobre {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto1 {
+    max-width: 350px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodape */
+
+.rodape {
+    height: 23%;
+    background-color: #49997d;
+    text-align: center;
+}
+
+.rodape-info {
+    max-width: 1200px;
+}
+
+.rodape .rodape-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid #3b7863;
+}
+
+.rodape-info h4 {
+    font-size: 22px;
+    color: white;
+}
+
+.tamanho {
+    width: 20%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.end {
+    text-decoration: none;
+    color: #fff;
+}
+
+.end:hover {
+    color: black;
+}
+
+.cel {
+    color: #fff;
+}
+
+.url {
+    text-decoration: none;
+    color: #fff;
+}
+
+.url:hover {
+    color: black;
+}
+
+.icone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.rodape-copy {
+    color: #fff;
+    padding: 20px;
+}
+
+.rodape-copy span {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* página 2 */
+
+.img-fundo {
+    background-image: url("img-fundo.jpg");
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-quarto {
+    width: 32.5%;
+}
+
+.quartos .organizacao {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.organizacao {
+    max-width: 1200px;
+}
+
+.marg {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .alinhamento {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
